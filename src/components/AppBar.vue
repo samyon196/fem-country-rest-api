@@ -1,7 +1,9 @@
 <template>
   <div class="flex flex-row justify-between items-center h-full">
-    <span class="text-lg">Where in the world?</span>
-    <span>Dark mode :)</span>
+    <span class="text-lg dark:text-white font-bold">Where in the world?</span>
+    <LightDarkToggle />
   </div>
 </template>
-<script setup></script>
+<script setup>
+import LightDarkToggle from './LightDarkToggle.vue';
+</script>
